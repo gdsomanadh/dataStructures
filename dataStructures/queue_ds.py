@@ -9,7 +9,7 @@ class Queue:
         return not self.items
 
     def enqueue(self, item):
-        self.items.append((item))
+        self.items.append(item)
 
     def dequeue(self):
         self.items.popleft()

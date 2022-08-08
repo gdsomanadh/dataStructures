@@ -1,4 +1,4 @@
-import stack
+from dataStructures import stack
 
 
 def reverse_string_stack():
